@@ -1,0 +1,81 @@
+/*Wallpaper sito e impostazione font*/
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Riquadro form trasparente*/
+
+.box{
+    width: 1300px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+/*Contenuto form con opzioni*/
+
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+.line{
+    width: 700px;
+    height: 30px;
+    background-color: lime;
+    margin: auto;
+    padding-top: 9px;
+}
+
+.option{
+    display: inline
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*Selezione monopattino*/
+
+main{
+    text-align: left;
+    padding: 0px 300px;
+    font-size: 25px;
+    color: white;
+}
+
+h1{
+    color: lime;
+}
+
+/*Varietà monopattini disponibili*/
+
+.medium{
+    width: 300px;
+    height: 25px;
+    background-color: sandybrown;
+    border-radius: 5px;
+}
+
+.full{
+    width: 500px;
+    height: 25px;
+    background-color: limegreen;
+    border-radius: 5px;
+}
+
+.low{
+    width: 100px;
+    height: 25px;
+    background-color: crimson;
+    border-radius: 5px;
+}
